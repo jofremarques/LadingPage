@@ -1,0 +1,209 @@
+body{
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 1.5rem;
+    
+    margin: 0%;
+        
+}
+h1 , h3 {
+    color: aliceblue;
+    
+}
+h3{
+    margin: 0%;
+}
+p{
+    margin: 0%;
+}
+.imagem1{
+    width: 20%;
+}
+
+.container{
+    background-color: #141516;
+    color: #718293;
+    width: 100%;
+    
+       
+    }
+.paragrafo{
+    margin: 10% 0%;
+}
+.h3{
+    margin-left: 1%;
+    transform: translatey(-0.4rem);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.coluna1{
+    margin-top: 5%;
+    padding: 0% 0% 0% 10%;
+    width: 45%;
+}
+.coluna2 {
+    margin-top: 5%;
+    text-align: right;
+    width: 45%;
+
+}
+img{
+    width: 100%;
+}
+
+.email{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.input{
+    
+    width: 50%;
+}
+.botao{
+    width: 50%;    
+}
+
+input{
+    width: 100%;
+    padding: 4%;
+}
+button{
+    color: aliceblue;
+    background-color: #4555FF;
+    padding: 4% 9%;
+    border: none;
+    font-size: 1rem;
+}
+input::placeholder{
+    color: #A7B5C5;
+}
+.imgicon{
+    width: 4%;
+}
+.footer2{
+    display: flex;
+
+}
+.icones{
+   width:50%;
+    margin-top: 1%;
+}
+
+.icon{
+    font-size:140%; 
+    color:aliceblue; 
+    margin-right: 5%;
+}
+.hrFooter hr{
+    width: 90%;
+    margin: 3% 5%;
+    border: none;
+    background-color:#718293;
+    height: 1px;
+}
+
+.imagem{
+    width: 80%;
+    box-sizing: border-box;
+    transform: translatey(60%);
+    margin: 0 auto;
+    
+}
+
+@media(max-width:768px){
+
+    .imgicon{
+        width: 10%;
+    }
+}
+@media(max-width:1024px){
+
+    .imgicon{
+        width: 7%;
+    }
+}
+
+
+
+@media (max-width:550px) {
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 20%;
+    }
+    
+    .imagem1{
+        width: 20%;
+    }
+    .paragrafo1{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .paragrafo{
+        font-size: 1rem;
+        
+    }
+    .h3{
+        transform: translate(0.3rem,0rem);
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+    .coluna1{ 
+        padding: 5%;
+        width: 100%;
+    }
+    .coluna2{
+        width: 100%;
+        display: none;
+    }
+    .imgicon{
+        width: 10%;
+        
+    }
+   
+    .pfooter{
+        font-size: 0.7rem;
+
+    }
+
+    .icon{
+        font-size:80%; 
+        color:aliceblue; 
+        margin-right: 5%;
+    }
+        
+.email{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.input{
+    
+    width: 50%;
+}
+.botao{
+    width: 30%;    
+}
+
+input{
+    width: 100%;
+    padding: 4%;
+}
+button{
+    color: aliceblue;
+    background-color: #4555FF;
+    padding: 9%;
+    border: none;
+    font-size: 1rem;
+}
+input::placeholder{
+    color: #A7B5C5;
+
+}
+}
